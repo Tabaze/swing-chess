@@ -12,12 +12,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
-/* ChessController allows the Board and BoardView to work together without interacting
- * When an event occurs, ChessController sees it happen
- * Once this event occurs, it acts on the Board or BoardView as necessary
- * @author nrileyfletcher
- * @brief  Interaction between graphic and logic board representations
- */
 public class ChessController {
 
     private BoardView boardView;

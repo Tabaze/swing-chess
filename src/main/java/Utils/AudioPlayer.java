@@ -6,11 +6,6 @@ import javax.sound.sampled.Clip;
 import javax.sound.sampled.FloatControl;
 import java.io.File;
 
-/*
- * @author nrileyfletcher
- * @brief Plays sound effects for chess game
- * @current {Wrong move, move occurs, player wins}
- */
 public class AudioPlayer {
     private static Clip clip;
 

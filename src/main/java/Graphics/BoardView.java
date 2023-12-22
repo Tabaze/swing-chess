@@ -14,13 +14,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-/*  BoardView is the view in the MVC architecture
- *  All visuals are updated and created here
- *  We extend JFrame to allow our BoardView to act as a JFrame
- *  @author nrileyfletcher
- *  @brief Graphical representation of chess board
- */
-
 public class BoardView extends JFrame {
 
     private static final Color LIGHT_BLUE = new Color(163, 214, 245);
